@@ -1,0 +1,146 @@
+<title>CrimeGhost Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Privacy policy for CrimeGhost: Detective Mystery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one readable column, like a case file. Brand header, then numbered-free sections with mono labels. */
+:root {
+  --bg: #F6F7F5; --surface: #FFFFFF; --fg: #15171B; --muted: #5C626B; --rule: #DDE1E4;
+  --accent: #1E9E6A; --accent-ink: #0B5C3C; --note: #E9F6EF;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #050608; --surface: #0D0F12; --fg: #EDEEF1; --muted: #9AA0AA; --rule: #23262C;
+  --accent: #3DDC97; --accent-ink: #3DDC97; --note: #0F2119; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #050608; --surface: #0D0F12; --fg: #EDEEF1; --muted: #9AA0AA; --rule: #23262C;
+  --accent: #3DDC97; --accent-ink: #3DDC97; --note: #0F2119; color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font: 400 1rem/1.65 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0; }
+.wrap { max-width: 42rem; margin: 0 auto; padding-block: 3.5rem 4rem; display: grid; gap: 2.5rem; }
+header { display: grid; gap: .9rem; }
+.brand { font: 500 .78rem var(--mono); letter-spacing: .3em; color: var(--muted); display: flex; align-items: center; gap: .7rem; }
+.brand i { width: .55rem; height: .55rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+h1 { font: 800 clamp(2.6rem, 9vw, 4rem)/.92 var(--display); text-transform: uppercase; letter-spacing: .01em; margin: 0; text-wrap: balance; }
+.meta { font: 500 .8rem var(--mono); color: var(--muted); margin: 0; }
+.tldr { background: var(--note); border-radius: 14px; padding: 1.25rem 1.4rem; display: grid; gap: .5rem; }
+.tldr b { font: 500 .75rem var(--mono); letter-spacing: .2em; color: var(--accent-ink); text-transform: uppercase; }
+.tldr p { margin: 0; font-size: 1.05rem; }
+section { display: grid; gap: .6rem; border-top: 1px solid var(--rule); padding-top: 1.6rem; }
+h2 { font: 600 1.15rem/1.3 var(--body); margin: 0; text-wrap: balance; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: .35rem; }
+.muted { color: var(--muted); }
+code { font: 500 .88em var(--mono); }
+a { color: var(--accent-ink); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.contact { font: 500 1rem var(--mono); user-select: all; }
+footer { font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .05em; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><i></i>CRIMEGHOST</div>
+    <h1>Privacy policy</h1>
+    <p class="meta">CrimeGhost: Detective Mystery · Effective 26 October 2026</p>
+  </header>
+
+  <div class="tldr">
+    <b>The short version</b>
+    <p>The game never asks who you are. To back up your progress, it creates an anonymous account (a random ID, with no name or email) and saves your game progress to our server. There are no ads in the game, and no analytics in the current version.</p>
+  </div>
+
+  <section>
+    <h2>Who we are</h2>
+    <p>CrimeGhost: Detective Mystery ("the game") is made by <strong>Yohanes Debebe Yilma</strong> ("we", "us"). If you have any question about this policy or your data, email us at <span class="contact">yohanes@adulislabs.com</span>.</p>
+  </section>
+
+  <section>
+    <h2>What the game saves</h2>
+    <p>To save your game, the app stores the following on your phone and backs it up to our server:</p>
+    <ul>
+      <li>Case progress: questions answered, hints used, evidence pinned, stars earned</li>
+      <li>Your detective name and detective number, if you set them</li>
+      <li>Settings such as sound, haptics, text size and which detective you play</li>
+      <li>Your hint balance</li>
+    </ul>
+    <p>This is all we keep, and it's linked to a random anonymous ID, not to you. We don't sell it or share it with anyone.</p>
+  </section>
+
+  <section>
+    <h2>What we collect</h2>
+    <p>Only the game progress listed above and the random account ID it's stored under. The current version has no advertising, analytics or crash reporting, and it never asks for your name, email or phone number.</p>
+  </section>
+
+  <section>
+    <h2>Cloud saves</h2>
+    <p>Your progress is stored by our backend provider, Supabase, on our behalf. Data is encrypted in transit. Supabase's privacy policy: <a href="https://supabase.com/privacy" rel="noopener">supabase.com/privacy</a></p>
+  </section>
+
+  <section>
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Network access.</strong> Used to back up your progress, download case updates and open links you choose, such as the game's store page.</li>
+      <li><strong>Vibration.</strong> For haptic feedback. You can turn it off in Settings.</li>
+    </ul>
+    <p>The game never asks for your contacts, photos, location, microphone or camera.</p>
+  </section>
+
+  <section>
+    <h2>Sharing</h2>
+    <p>The game has no share features. Nothing you do in it is posted or sent anywhere on your behalf.</p>
+  </section>
+
+  <section>
+    <h2>The people in the game are fictional</h2>
+    <p>The phones and laptops you investigate contain messages, photos, names, phone numbers, addresses and health data. All of it is made up. Any resemblance to real people or companies is coincidental.</p>
+  </section>
+
+  <!--
+    READY FOR LATER RELEASES. Uncomment each block in the same release that ships the feature,
+    update the "short version" and "What we collect" sections, and update the Play Data safety form.
+
+  <section>
+    <h2>Linked Google account</h2>
+    <p>If you choose to link a Google account to keep your progress across phones, we also store the email address Google shares with us so you can sign in again.</p>
+  </section>
+
+  <section>
+    <h2>Purchases (Google Play, RevenueCat)</h2>
+    <p>Purchases are handled by Google Play. We never see your card details. To check what you've bought and restore it on a new device, we use RevenueCat, which receives an anonymous app user ID and your purchase history (product, price, date, country). Privacy policy: https://www.revenuecat.com/privacy</p>
+  </section>
+
+  -->
+
+  <section>
+    <h2>Children</h2>
+    <p>The game is meant for players aged 13 and over and is not directed at children under 13. We don't knowingly collect personal information from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2>Deleting your data</h2>
+    <p>In the game, go to Profile → Delete account. That deletes your progress from our server and from your phone straight away. You can also email us, and we'll delete it within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>Your rights</h2>
+    <p>Depending on where you live (for example under the GDPR in Europe or the CCPA in California), you have the right to ask what personal data we hold about you, and to have it corrected or deleted. The only data we hold is your game progress. Contact us at any time and we'll answer within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If we add features such as purchases or account linking, we'll update this policy before those features ship, describe exactly what they collect, and change the date at the top. The current version will always be on this page.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p class="contact">yohanes@adulislabs.com</p>
+  </section>
+
+  <footer>© 2026 Yohanes Debebe Yilma · CrimeGhost: Detective Mystery</footer>
+</div>

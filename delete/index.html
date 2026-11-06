@@ -1,0 +1,72 @@
+<title>CrimeGhost · Delete your data</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="How to delete your CrimeGhost data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one readable column, like a case file. Brand header, then numbered-free sections with mono labels. */
+:root {
+  --bg: #F6F7F5; --surface: #FFFFFF; --fg: #15171B; --muted: #5C626B; --rule: #DDE1E4;
+  --accent: #1E9E6A; --accent-ink: #0B5C3C; --note: #E9F6EF;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #050608; --surface: #0D0F12; --fg: #EDEEF1; --muted: #9AA0AA; --rule: #23262C;
+  --accent: #3DDC97; --accent-ink: #3DDC97; --note: #0F2119; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #050608; --surface: #0D0F12; --fg: #EDEEF1; --muted: #9AA0AA; --rule: #23262C;
+  --accent: #3DDC97; --accent-ink: #3DDC97; --note: #0F2119; color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font: 400 1rem/1.65 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0; }
+.wrap { max-width: 42rem; margin: 0 auto; padding-block: 3.5rem 4rem; display: grid; gap: 2.5rem; }
+header { display: grid; gap: .9rem; }
+.brand { font: 500 .78rem var(--mono); letter-spacing: .3em; color: var(--muted); display: flex; align-items: center; gap: .7rem; }
+.brand i { width: .55rem; height: .55rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 12px var(--accent); }
+h1 { font: 800 clamp(2.6rem, 9vw, 4rem)/.92 var(--display); text-transform: uppercase; letter-spacing: .01em; margin: 0; text-wrap: balance; }
+.meta { font: 500 .8rem var(--mono); color: var(--muted); margin: 0; }
+.tldr { background: var(--note); border-radius: 14px; padding: 1.25rem 1.4rem; display: grid; gap: .5rem; }
+.tldr b { font: 500 .75rem var(--mono); letter-spacing: .2em; color: var(--accent-ink); text-transform: uppercase; }
+.tldr p { margin: 0; font-size: 1.05rem; }
+section { display: grid; gap: .6rem; border-top: 1px solid var(--rule); padding-top: 1.6rem; }
+h2 { font: 600 1.15rem/1.3 var(--body); margin: 0; text-wrap: balance; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: .35rem; }
+.muted { color: var(--muted); }
+code { font: 500 .88em var(--mono); }
+a { color: var(--accent-ink); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.contact { font: 500 1rem var(--mono); user-select: all; }
+footer { font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .05em; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><i></i>CRIMEGHOST</div>
+  <h1>Delete your data</h1>
+  <p class="meta">CrimeGhost: Detective Mystery · Yohanes Debebe Yilma</p>
+
+  <h2>What we keep</h2>
+  <p>CrimeGhost has no sign-up. When you play, the game creates an anonymous account (a random ID, no name, email or phone number) and keeps one cloud copy of your game: your progress in each case, your answers, hints used, stars, settings, and the detective name you typed in Profile, if you chose one. Nothing else is collected. There are no ads and no analytics.</p>
+
+  <h2>Delete it from the game</h2>
+  <ol>
+    <li>Open CrimeGhost.</li>
+    <li>Go to <b>Profile</b>.</li>
+    <li>Tap <b>Delete account</b> and confirm.</li>
+  </ol>
+  <p>This deletes your saved game data from our servers immediately and signs the phone out of that anonymous account. The game then starts fresh as a new anonymous player. The old random ID can remain in our sign-in system with no data attached to it; to have it removed too, send the email below. Uninstalling the app removes everything stored on the phone.</p>
+
+  <h2>Delete it by email</h2>
+  <p>If you no longer have the app, email <a href="mailto:yohanes@adulislabs.com?subject=CrimeGhost%20data%20deletion">yohanes@adulislabs.com</a> with the subject “CrimeGhost data deletion” and the detective number shown on your Profile card (for example DET. #5312), if you know it. We delete the matching account and its game data within 30 days and reply to confirm.</p>
+
+  <h2>What is deleted, and what is kept</h2>
+  <p><b>Deleted:</b> all saved progress, answers, hints, stars, settings and the detective name (in the app, immediately), and the anonymous ID itself (by email, within 30 days).</p>
+  <p><b>Kept:</b> no game data. We keep no backups of individual players’ game data after deletion.</p>
+</main>
+<footer>© 2026 Yohanes Debebe Yilma · CrimeGhost: Detective Mystery · <a href="../privacy/">Privacy policy</a></footer>
+</body>
+</html>
