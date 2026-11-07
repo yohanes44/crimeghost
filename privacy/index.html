@@ -52,7 +52,7 @@ footer { font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .05e
 
   <div class="tldr">
     <b>The short version</b>
-    <p>The game never asks who you are. To back up your progress, it creates an anonymous account (a random ID, with no name or email) and saves your game progress to our server. There are no ads in the game, and no analytics in the current version.</p>
+    <p>The game never asks who you are. To back up your progress, it creates an anonymous account (a random ID, with no name or email) and saves your game progress to our server. There are no ads. The game records anonymous usage events (for example which case you opened or that a hint was used) to help us improve it; you can turn this off in Settings.</p>
   </div>
 
   <section>
@@ -69,12 +69,18 @@ footer { font: 500 .75rem var(--mono); color: var(--muted); letter-spacing: .05e
       <li>Settings such as sound, haptics, text size and which detective you play</li>
       <li>Your hint balance</li>
     </ul>
-    <p>This is all we keep, and it's linked to a random anonymous ID, not to you. We don't sell it or share it with anyone.</p>
+    <p>This is linked to a random anonymous ID, not to you. We don't sell it or share it with anyone.</p>
   </section>
 
   <section>
     <h2>What we collect</h2>
-    <p>Only the game progress listed above and the random account ID it's stored under. The current version has no advertising, analytics or crash reporting, and it never asks for your name, email or phone number.</p>
+    <p>The game progress listed above, the random account ID it's stored under, and anonymous usage events (below). There is no advertising and no crash reporting, and the game never asks for your name, email or phone number.</p>
+  </section>
+
+  <section>
+    <h2>Usage analytics</h2>
+    <p>To see which parts of the game work and where players get stuck, the app sends anonymous game events to our analytics provider, PostHog: the app opening, a case being opened, a question answered right or wrong, a hint used, a case solved (with stars), the Premium screen being viewed or a product tapped, a setting changed, and which app inside a case device was opened. Each event carries the same random ID as your cloud save, your device type and app version.</p>
+    <p>It never includes your name, email, phone number, contacts, location, IP address, what you type as answers, or anything from your phone. There is no screen recording. You can turn usage data off at any time in <strong>Settings → Privacy → Share anonymous usage data</strong>; the app then sends nothing more. PostHog's privacy policy: <a href="https://posthog.com/privacy" rel="noopener">posthog.com/privacy</a></p>
   </section>
 
   <section>
